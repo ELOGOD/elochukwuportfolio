@@ -396,6 +396,28 @@ section {
   color: #1f5297;
 }
 
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  table {
+      display: block;
+  }
+
+  tr {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+  }
+
+  td {
+      display: block;
+      width: 100%;
+  }
+
+  .newsdate {
+      margin-bottom: 5px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
