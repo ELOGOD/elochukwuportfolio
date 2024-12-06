@@ -2,15 +2,11 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YH71DNJ26M"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-        gtag('config', 'G-YH71DNJ26M');
-    </script>
+    <!-- Glightbox CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet">
 
 
     <meta charset="utf-8">
@@ -39,6 +35,8 @@
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
     <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -84,7 +82,8 @@
                     <!-- <li><a href="#research"><i class="bx bx-file-find"></i> <span>Research</span></a></li>
                     <li><a href="#teaching"><i class="bx bxs-school"></i> <span>Teaching</span></a></li> -->
                     <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Curriculum Vitae</span></a></li>
-                    <!-- <li><a href="#documents"><i class="bx bx-server"></i> Documents</a></li> -->
+                    <!-- <li><a href="#documents"><i class="bi bi-images navicon"></i>Supporting Documents</a></li> -->
+                    <li><a href="#portfolio"><i class="bi bi-images navicon"></i>Supporting Documents</a></li>
 
                 </ul>
             </nav><!-- .nav-menu -->
@@ -100,7 +99,6 @@
         <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
             <div class="hero-container" data-aos="fade-in">
                 <h1><span>Elochukwu Chukwubuikem Joseph</span></h1>
-                <!-- <h1><span class="chinese">李天一</span></h1> -->
                 <br>
                 <p>I'm interested in <span class="typed"
                         data-typed-items="Artificial Intelligence, Machine Learning, Cybersecurity, Cloud Computing, Software Development, IT Convergence"></span>
@@ -503,239 +501,476 @@
             </div>
         </section><!-- End Resume Section -->
 
-        <!-- ======= Portfolio Section ======= -->
-        <!-- <section id="documents" class="portfolio section-bg">
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio section light-background">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Supporting Documents</h2>
+            </div><!-- End Section Title -->
+
+
+
             <div class="container">
 
-                <div class="section-title">
-                    <h2>Supporting Documents</h2>
+                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                        <li data-filter=".filter-2024">2024</li>
+                        <li data-filter=".filter-2023">2023</li>
+                        <li data-filter=".filter-2022">2022</li>
+                        <li data-filter=".filter-older">Older</li>
+                        <li data-filter="*" class="filter-active">All</li>
+                    </ul><!-- End Portfolio Filters -->
+
+                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_01.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NYSC CNS</h4>
+                                    <a href="assets/img/certificates/Scan_2024_01.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_02.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NYSC CDS</h4>
+                                    <a href="assets/img/certificates/Scan_2024_02.jpg" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_03.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NYSC CDS</h4>
+                                    <a href="assets/img/certificates/Scan_2024_03.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_04.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NCS</h4>
+                                    <a href="assets/img/certificates/Scan_2024_04.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_05.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NCS</h4>
+                                    <a href="assets/img/certificates/Scan_2024_05.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_06.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NCS</h4>
+                                    <a href="assets/img/certificates/Scan_2024_06.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_07.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>IEEE</h4>
+                                    <a href="assets/img/certificates/Scan_2024_07.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2024">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2024_08.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO CSC</h4>
+                                    <a href="assets/img/certificates/Scan_2024_08.png" title="App 1"
+                                        data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_01.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>GMCPN</h4>
+                                    <a href="assets/img/certificates/Scan_2023_01.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_02.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>COURSERA</h4>
+                                    <a href="assets/img/certificates/Scan_2023_02.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_03.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>COURSERA</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/certificates/Scan_2023_03.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_04.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>COURSERA</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/certificates/Scan_2023_04.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_05.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>OPEN EDG</h4>
+                                    <a href="assets/img/certificates/Scan_2023_05.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_06.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>GADS</h4>
+                                    <a href="assets/img/certificates/Scan_2023_06.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2023">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2023_07.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>JOBBER MAN</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/certificates/Scan_2023_07.png" title="Product 1"
+                                        data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_01_s.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO ASA</h4>
+                                    <a href="assets/img/certificates/Scan_2022_01.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_02_s.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO ASA</h4>
+                                    <a href="assets/img/certificates/Scan_2022_02.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_03_s.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO ASA</h4>
+                                    <a href="assets/img/certificates/Scan_2022_03.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_04.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO NFCS</h4>
+                                    <a href="assets/img/certificates/Scan_2022_04.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_05.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO NFCS</h4>
+                                    <a href="assets/img/certificates/Scan_2022_05.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_06.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO NFCS</h4>
+                                    <a href="assets/img/certificates/Scan_2022_06.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_07.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>COURSERA</h4>
+                                    <a href="assets/img/certificates/Scan_2022_07.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_08.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>COURSERA</h4>
+                                    <a href="assets/img/certificates/Scan_2022_08.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_09.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>ALX</h4>
+                                    <a href="assets/img/certificates/Scan_2022_09.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-2022">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2022_10.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>ORACLE CLOUD</h4>
+                                    <a href="assets/img/certificates/Scan_2022_10.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2021_01.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>HUAWEI</h4>
+                                    <a href="assets/img/certificates/Scan_2021_01.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_01.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO NFCS</h4>
+                                    <a href="assets/img/certificates/Scan_2019_01.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_02.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>SOLO LEARN</h4>
+                                    <a href="assets/img/certificates/Scan_2019_02.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_03.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>NACOSS</h4>
+                                    <a href="assets/img/certificates/Scan_2019_03.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_04.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>FUTO NFCS</h4>
+                                    <a href="assets/img/certificates/Scan_2019_04.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_05.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>KONVERGE MEDIA</h4>
+                                    <a href="assets/img/certificates/Scan_2019_05.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_06.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>SOLO LEARN</h4>
+                                    <a href="assets/img/certificates/Scan_2019_06.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_07.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>MTN FOUNDATION</h4>
+                                    <a href="assets/img/certificates/Scan_2019_07.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2019_08.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>MTN FOUNDATION</h4>
+                                    <a href="assets/img/certificates/Scan_2019_08.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2018_01.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>SOLO LEARN</h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <a href="assets/img/certificates/Scan_2018_01.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2018_02.png" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>INTERN HUB</h4>
+                                    <a href="assets/img/certificates/Scan_2018_02.png" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-older">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/certificates/Scan_2015_01.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>GMGTECH</h4>
+                                    <a href="assets/img/certificates/Scan_2015_01.jpg" title="Branding 1"
+                                        data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Portfolio Item -->
+                    </div><!-- End Portfolio Container -->
+
                 </div>
-                <div class="row" data-aos="fade-up">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="portfolio-flters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-1">CrowdIA</li>
-                            <li data-filter=".filter-2">Connect the Dots</li>
-                            <li data-filter=".filter-3">HyperTuner</li>
-                            <li data-filter=".filter-4">Data-Centric Security</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-                    <div class="portfolio-item filter-1">
-                        <div class="text-center">
-                            <h5>CrowdIA</h5>
-                            <h6 class="mb-2 text-muted">Solving Mysteries with Crowdsourced Sensemaking</h6>
-                        </div>
-
-                        <div class="portfolio-details">
-                            <div class="row" data-aos="fade-up">
-                                <div class="col-lg-4 col-md-6">
-                                    <div>
-                                        <span>CrowdIA Pipeline:</span>
-                                        <img src="assets/img/portfolio/pipeline.png"
-                                            style="max-width:100%;max-height:100%;" />
-                                    </div>
-                                    <div>
-                                        <span>Video Demo: </span>
-                                        <iframe width="100%" src="https://www.youtube.com/embed/87a2kZy4s5U"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                    <a class="btn btn-sm btn-dark" role="button" style="float:right"
-                                        href="https://buildingpath.herokuapp.com/pipeline/worker/demo"
-                                        target="_blank">Webpage Demo</a>
-                                </div>
-                                <div class="col-lg-8 col-md-6">
-                                    <p>This project modularized the classical sensemaking loop by Pirolli and Card, by
-                                        clarifying the inputs and outputs in each of the five components in sensemaking,
-                                        so that it can be customized to cater different investigation goals and
-                                        strategies, design and assign specific tasks to crowd workers. The pipeline
-                                        allows flexible and dynamic implementation of workflows, expert guidance,
-                                        monitor and feedback. This provide a broader possibility of collaboration among
-                                        experts, crowds and algorithms.</p>
-                                    <small> Related publications:
-                                        <ul class='deliverable'>
-                                            <li>T. Li, K. Luther, and C. North. <a target="_blank"
-                                                    href="assets/pdf/cscw105-liA.pdf">CrowdIA: Solving Mysteries with
-                                                    Crowdsourced Sensemaking</a>. The 21st ACM Conference on
-                                                Computer-Supported Cooperative Work and Social Computing (CSCW), New
-                                                York City's Hudson River (Jersey City), 2018. (25.6% acceptance rate)
-                                            </li>
-                                            <li>T. Li, C. Manns, C. North, and K. Luther. <a target="_blank"
-                                                    href="assets/pdf/DroppingtheBaton_copyrightsadded.pdf">Dropping the
-                                                    Baton? UnderstandingErrors and Bottlenecks in a Crowdsourced
-                                                    Sensemaking Pipeline</a>. The 22st ACM Conference on
-                                                Computer-Supported Cooperative Work and Social Computing (CSCW), Austin,
-                                                Texas, 2019. (31% acceptance rate)</li>
-                                        </ul>
-                                    </small>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item filter-2">
-                        <div class="text-center">
-                            <h5>Connect the Dots</h5>
-                            <h6 class="mb-2 text-muted">Supporting Intelligence Analysis with Crowdsourcing and
-                                Visualization</h6>
-                        </div>
-
-                        <div class="portfolio-details">
-                            <div class="row" data-aos="fade-up">
-                                <div class="col-lg-4 col-md-6">
-                                    <div>
-                                        <span>Crowd-Generated Information Graph:</span>
-                                        <img src="assets/img/portfolio/graph.png"
-                                            style="max-width:100%;max-height:100%;" />
-                                    </div>
-                                    <div>
-                                        <span>Video Demo: </span>
-                                        <iframe width="100%" src="https://www.youtube.com/embed/IzCKIwFYko0"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen></iframe>
-                                    </div>
-                                    <a class="btn btn-sm btn-dark connectthedots" style="float:right"
-                                        href="https://buildingpath.herokuapp.com/step3/user/1/" target="_blank">Webpage
-                                        Demo</a>
-                                </div>
-                                <div class="col-lg-8 col-md-6">
-                                    <p>This project explores how crowdsourcing can be used to help an intelligence
-                                        analyst find connections within a large body of text-based evidence. For
-                                        example, an analyst may have access to dozens of evidence documents, and needs
-                                        to identify a hidden terrorist plot that links the evidence together. We have
-                                        developed the concept of “context slices,” in which we intelligently divide up
-                                        large amounts of text so that transient, novice crowd workers can contribute to
-                                        solving the bigger mystery. From these ideas, we have developed <i>Connect the
-                                            Dots</i>, a system that uses crowd workers and natural language processing
-                                        techniques to build an interactive visualization from textual evidence.</p>
-                                    <small> Related publications:
-                                        <ul class='deliverable'>
-                                            <li>T. Li, A. Shah, K. Luther, and C. North. <a target="_blank"
-                                                    href="assets/pdf/Connect_the_Dots_CHI 2018_sensemaking_final.pdf">Crowdsourcing
-                                                    Intelligence Analysis with Context Slices</a>. CHI 2018 Workshop on
-                                                Sensemaking in a Senseless World, Montréal, Canada, 2018. (21%
-                                                acceptance rate for full presentations)</li>
-                                        </ul>
-                                    </small>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item filter-3">
-                        <div class="text-center">
-                            <h5>HyperTuner</h5>
-                            <h6 class="mb-2 text-muted">Visual Analytics for Hyperparameter Tuning by Professionals</h6>
-
-                        </div>
-                        <div class="portfolio-details">
-                            <div class="row" data-aos="fade-up">
-                                <div class="col-lg-4 col-md-6">
-                                    <div>
-                                        <span>Hyperparameter Tuning Dashboard:</span>
-                                        <img src="assets/img/portfolio/hypertuner.png"
-                                            style="max-width:100%;max-height:100%;" />
-                                    </div>
-                                    <div>
-                                        <span>Video Demo: </span>
-                                        <iframe width="100%" height="150%" src="https://youtube.com/embed/fNZavBphDsg"
-                                            frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-6">
-                                    <p>While training a machine learning model, data scientists often need to determine
-                                        some hyperparameters to set up the model. The values of hyperparameters
-                                        configure the structure and other characteris- tics of the model and can
-                                        significantly influence the training result. However, given the complexity of
-                                        the model algorithms and the training processes, identifying a sweet spot in the
-                                        hyperparameter space for a specific problem can be challenging. This work
-                                        characterizes user requirements for hyperparameter tuning and proposes a
-                                        prototype system to provide model-agnostic support. We conducted interviews with
-                                        data science practitioners in industry to collect user requirements and identify
-                                        opportunities for leveraging interactive visual support. HyperTuner is a
-                                        prototype system that supports hyperparameter search and analysis via
-                                        interactive visual analytics. </p>
-                                    <small> Related publications:
-                                        <ul class='deliverable'>
-                                            <li>T. Li, G. Convertino, W. Wang, H. Most, T. Zajonc and Y. Tsai. <a
-                                                    target="_blank"
-                                                    href="assets/pdf/_Revise__HyperTuner.pdf">HyperTuner: Visual
-                                                    Analytics for Hyperparameter Tuning by Professionals</a>. IEEEVIS
-                                                2018 Workshop on Machine Learning from User Interaction for
-                                                Visualization and Analytics, Berlin, Germany, 2018.</li>
-                                            <li>US Patent 16/138684: Hyperparameter tuning using visual analytics in a
-                                                data science platform</li>
-                                        </ul>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-item filter-4">
-                        <div class="text-center">
-                            <h5>Data-Centric Security</h5>
-
-                            href="https://www.informatica.com/">Informatica</a> </small>
-                        </div>
-                        <div class="portfolio-details">
-                            <div class="row" data-aos="fade-up">
-                                <div class="col-lg-4 col-md-6">
-                                    <div>
-                                        <span>Security Analytics Dashboard:</span>
-                                        <img src="assets/img/portfolio/dataprotect.png"
-                                            style="max-width:100%;max-height:100%;" />
-                                    </div>
-                                    <div>
-                                        <span>Video Demo: </span>
-                                        <iframe width="100%" height="150%" src="https://youtube.com/embed/BUZQ3AW-EQo"
-                                            frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-6">
-                                    <p>The growing number of attacks on sensitive information stored in company
-                                        databases has required the need for more advanced data protection systems. A new
-                                        class of data-centric systems is allowing data security teams in organizations
-                                        to better detect security risks across distributed data stores. However, data
-                                        security analysts still face two key challenges when making data protection
-                                        decisions: information overload from too many protection targets and having to
-                                        build optimal protection plans given current goals and available resources. In
-                                        this work, we characterize user classes and requirements in data security teams,
-                                        and propose a system design that separates the decision-making process into two
-                                        sub-tasks: identifying what data is worth protecting and building an impactful
-                                        plan to protect it. We implemented a system prototype through four iterative
-                                        design and evaluation cycles, by applying user-centered design to this new
-                                        domain of data security applications.</p>
-                                    <small> Related publications:
-                                        <ul class='deliverable'>
-                                            <li>T. Li, G. Convertino, R.K. Tayi, and S. Kazerooni. <a target="_blank"
-                                                    href="assets/pdf/IUI2019.pdf">What Data Should I Protect? A
-                                                    Recommender and Impact Analysis Design to Assist Decision
-                                                    Making</a>. ACM Conference on Intelligent User Interfaces (IUI
-                                                2019), Los Angeles, CA, USA, 2019. (25% acceptance rate)</li>
-                                            <li>T. Li, G. Convertino, R.K. Tayi, S. Kazerooni and G. Patterson. 2019. <a
-                                                    target="_blank"
-                                                    href="https://dl.acm.org/citation.cfm?id=3308677">Adding
-                                                    intelligence to a data security analysis system: recommendation and
-                                                    planning support</a>. ACM Conference on Intelligent User Interfaces
-                                                (IUI 2019), Los Angeles, CA, USA, 2019.</li>
-                                            <li>US Patent 15/948310: Method, apparatus, and computer-readable medium for
-                                                data protection simulation and optimization in a computer network.</li>
-                                        </ul>
-                                    </small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
 
+        </section><!-- /Portfolio Section -->
 
-        </section> -->
+        <!-- ======= Portfolio Section ======= -->
+
         <!-- End Portfolio Section -->
 
 
@@ -759,23 +994,64 @@
         </div>
     </footer><!-- End  Footer -->
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Glightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize Isotope
+            var $grid = $('.isotope-container').isotope({
+                itemSelector: '.isotope-item',
+                layoutMode: 'masonry'
+            });
+
+            // Filter items on button click
+            $('.portfolio-filters li').on('click', function () {
+                $('.portfolio-filters li').removeClass('filter-active');
+                $(this).addClass('filter-active');
+                var filterValue = $(this).attr('data-filter');
+                $grid.isotope({ filter: filterValue });
+            });
+
+            // Initialize Glightbox
+            const lightbox = GLightbox({
+                selector: '.glightbox'
+            });
+        });
+    </script>
+
+
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
     <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/venobox/venobox.min.js"></script>
     <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="assets/vendor/typed.js/typed.min.js"></script>
+
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/typed.js/typed.umd.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
