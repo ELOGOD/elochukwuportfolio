@@ -1030,7 +1030,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
-.portfolio-details {
+/* .portfolio-details {
   padding-top: 40px;
 }
 
@@ -1118,7 +1118,51 @@ section {
     position: static;
     margin-top: 30px;
   }
+} */
+
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+  position: relative; /* Changed from absolute to relative */
+  margin-top: 20px; /* Added spacing to prevent overlap */
 }
+
+.portfolio-details .portfolio-description {
+  padding-top: 30px; /* Reduced padding to fit better */
+}
+
+.portfolio-details .portfolio-description h2 {
+  width: 100%; /* Full width for better layout */
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+/* Ensure proper alignment of the container */
+.portfolio-details .row {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+/* Adjust image container */
+.portfolio-details .col-lg-8 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Optional for rounded edges */
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .portfolio-details .portfolio-info {
+    position: static; /* Ensures correct placement */
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1223,4 +1267,48 @@ td:first-child {
 .when {
   font-weight: lighter;
   font-style: italic;
+}
+
+/*--------------------------------------------------------------
+# Global Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  padding: 25px 0;
+  position: relative;
+}
+
+.page-title h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.page-title .breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.page-title .breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.page-title .breadcrumbs ol li+li::before {
+  content: "/";
+  display: inline-block;
+  padding-right: 10px;
+  color: color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.dark-background {
+  --background-color: #040b14;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #151f2b;
+  --contrast-color: #ffffff;
 }
