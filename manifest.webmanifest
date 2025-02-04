@@ -1,0 +1,17 @@
+{
+    "name": "Elochukwu Portfolio",
+    "short_name": "Portfolio",
+    "description": "Elochukwu's personal portfolio as Website",
+    "scope": "/elochukwuportfolio/",
+    "start_url": "/elochukwuportfolio/",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/elochukwuportfolio/assts/img/apple-touch-icon.png",
+            "type": "image/png",
+            "sizes": "700x700"
+        }
+    ]
+}
